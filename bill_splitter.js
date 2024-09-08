@@ -20,8 +20,8 @@ console.log(`For a bill of $${testBill}, the tip is $${testTip}, and the total v
 
 // Data set 1: Bill amounts of 275, 40, and 430
 const bills1 = [275, 40, 430];
-const tips1 = bills1.map(bill => calculateTip(bill));
-const totals1 = bills1.map((bill, index) => bill + tips1[index]);
+const tips1 = bills1.map(bill => calculateTip(bill)); // Output for tips: 41.25, 8, and 86
+const totals1 = bills1.map((bill, index) => bill + tips1[index]); //Output for totals: 316.25, 48, 516
 
 // Output:
 console.log("Data set 1:");
@@ -31,8 +31,8 @@ console.log("Totals:", totals1);
 
 // Data set 2: Bill amounts of 125, 555, and 44
 const bills2 = [125,555,44];
-const tips2 = bills2.map(bill=> calculateTip(bill));
-const totals2 = bills2.map((bill,index) => bill + tips2[index]);
+const tips2 = bills2.map(bill=> calculateTip(bill)); //Output for tips: 18.75, 111, and 8.80
+const totals2 = bills2.map((bill,index) => bill + tips2[index]); //Output for totals: 143.75, 666, and 52.80
 
 //Output:
 console.log("Data set 2:");
