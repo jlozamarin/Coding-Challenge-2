@@ -14,4 +14,4 @@ function calculateTip (bill) {
 const testBill = 100;
 const testTip = calculateTip(testBill);
 
-console.log(`For a bill of $${testBill}, the tip is $${testTip}, and the total value is $${testBill + testTip}`); // Output: For a bill of $100, the tip is $20, and the total value is $120.
+console.log(`For a bill of $${testBill}, the tip is $${testTip}, and the total value is $${testBill + testTip}`); // Output: For a bill of $100, the tip is $15, and the total value is $115.
